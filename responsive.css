@@ -153,7 +153,6 @@
     .flex__item_one_content {
         display: flex;
         justify-content: right;
-        width: 303px;
         height: 144px;
         text-align: start;
         line-height: 33.92px;
@@ -203,18 +202,18 @@
         width: 20%;
         position: absolute;
         right: 0px;
-        top: 224px;
+        top: 246px;
     }
 
     .flex__item_two_img2 {
         position: absolute;
         right: 82px;
-        top: 277px;
+        top: 287px;
     }
 
     .flex__item_two_img3 {
         position: absolute;
-        top: 299px;
+        top: 308px;
         left: 30px;
     }
 
@@ -264,9 +263,9 @@
     }
 
     .flex_item_four_img {
-        width: 143px;
+        width: 99px;
         position: absolute;
-        top: 190px;
+        top: 238px;
         right: 43px;
     }
 
