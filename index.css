@@ -69,7 +69,7 @@ body {
 }
 
 .main__content_img > img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .form__button {
@@ -426,7 +426,7 @@ input:focus {
 .main__content {
     display: flex;
     margin-top: 82px;
-    width: 90%;
+    width: 100%;
 }
 
 .main__content_text {
@@ -521,7 +521,7 @@ input:focus {
 .about__content_item_left > img {
     position: relative;
     top: 155px;
-    left: -200px;
+    left: -366px;
 }
 
 .about__content_items {
@@ -724,7 +724,7 @@ input:focus {
     flex-wrap: wrap;
     margin-top: 70px;
     gap: 10px;
-    width: 95%;
+    width: 100%;
 }
 
 .flex__item_one {
