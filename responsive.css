@@ -1,0 +1,544 @@
+/* Маленькие устройства (мобильные телефоны) */
+@media only screen and (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+    }
+    .burger_menu {
+        display: none;
+    }
+
+    .main__content {
+        align-items: center;
+        margin: 0px 16px;
+        flex-direction: column;
+        width: 95%;
+        margin-top: 100px;
+    }
+
+    .main__content_text {
+        margin-bottom: 100px;
+    }
+
+    .main__content_text > h1 {
+        font-size: 2.5rem;
+    }
+    .main__content_text > p {
+        font-size: 1.1rem;
+    }
+
+    .main__content_img {
+        margin: 0 50px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .main__content_img > img {
+        position: relative;
+        top: 3px;
+        left: 19px;
+        width: 95%;
+        height: auto;
+        z-index: 1;
+    }
+
+    .main__content_bg > img {
+        position: absolute;
+        width: 195%;
+        top: 25px;
+        left: -79px;
+        max-height: 88%;
+        z-index: -1;
+    }
+
+    .about__content_item_left {
+        font-size: 1.5rem;
+        line-height: 28.8px;
+        margin: 0px 107px 0px 16px;
+    }
+
+    .about__content_title {
+        font-size: 2.5rem;
+        margin-left: 16px;
+        margin-bottom: 30px;
+    }
+
+    .about__content_item_left > img {
+        display: none;
+    }
+
+    .about__content_items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about__content_item_rigth {
+        display: flex;
+        flex-direction: column;
+        margin-left: 16px;
+    }
+
+    .about__content_item_rigth_contact > h4 {
+        font-size: 2rem;
+    }
+
+    .about__content_item_rigth_contact > p {
+        font-size: 1rem;
+    }
+
+    .about__content_item_left > img {
+        display: none;
+    }
+
+    .about__content_items {
+        flex-direction: column;
+    }
+
+    .interest__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .interest__content > div > p {
+        font-weight: 600;
+        font-size: 1.3rem;
+        margin-top: 0px;
+        color: #ffffff;
+    }
+
+    .interest__amount {
+        display: flex;
+        align-items: center;
+    }
+
+    .interest__sales {
+        display: flex;
+        align-items: center;
+    }
+
+    .interest__customers {
+        display: flex;
+        align-items: center;
+    }
+
+    .interest__content > div > span {
+        font-size: 2.5rem;
+        margin: 0px 20px 0px 16px;
+    }
+
+    /* budds */
+
+    .budds__content_title {
+        height: 120px;
+        margin-bottom: 40px;
+        display: flex;
+    }
+
+    .budds__content_title > h4 {
+        font-size: 2.5rem;
+        line-height: 42.4px;
+    }
+
+    .budds__content_title > p {
+        font-size: 1.5rem;
+        line-height: 28.8px;
+        margin-top: 20px;
+    }
+
+    .flex__item_one {
+        width: 95%;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .flex__item_one_content {
+        display: flex;
+        justify-content: right;
+        width: 303px;
+        height: 144px;
+        text-align: start;
+        line-height: 33.92px;
+    }
+
+    .flex__item_one_title > h5 {
+        font-size: 2rem;
+        line-height: 33.92px;
+    }
+
+    .flex__item_one_title > p {
+        line-height: 20.16px;
+        font-size: 1rem;
+    }
+
+    .flex__item_one > div > img {
+        width: 52%;
+        transform: rotate(-10deg);
+        left: -14px;
+        top: 191px;
+    }
+
+    .flex_item_two {
+        width: 95%;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .flex__item_two_title > h5 {
+        font-size: 2rem;
+        line-height: 33.92px;
+    }
+
+    .flex__item_two_title > p {
+        font-size: 1rem;
+        line-height: 20.16px;
+    }
+    .flex__item_two_title {
+        width: 303px;
+        height: 236px;
+        display: flex;
+        flex-direction: column;
+        text-align: -webkit-auto;
+        text-align: start;
+    }
+
+    .flex__item_two_img1 {
+        width: 20%;
+        position: absolute;
+        right: 0px;
+        top: 224px;
+    }
+
+    .flex__item_two_img2 {
+        position: absolute;
+        right: 82px;
+        top: 277px;
+    }
+
+    .flex__item_two_img3 {
+        position: absolute;
+        top: 299px;
+        left: 30px;
+    }
+
+    .flex_item_three {
+        width: 95%;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .flex_item_three_title {
+        line-height: 33.92px;
+    }
+
+    .flex_item_three_title > h5 {
+        font-size: 2rem;
+        line-height: 33.92px;
+        font-weight: 700;
+    }
+
+    .flex_item_three_img {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+    }
+
+    .flex__item_four {
+        width: 95%;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .flex__item_four_title {
+        height: 236px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .flex__item_four_title > h5 {
+        font-size: 2rem;
+        line-height: 33.92px;
+        font-weight: 700;
+    }
+
+    .flex__item_four_title > p {
+        font-size: 1rem;
+    }
+
+    .flex_item_four_img {
+        width: 143px;
+        position: absolute;
+        top: 190px;
+        right: 43px;
+    }
+}
+
+/* Планшеты и маленькие ноутбуки */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .burger_menu {
+        display: none;
+    }
+
+    .main__content {
+        flex-direction: column;
+        margin-left: 16px;
+    }
+
+    .main__content_text {
+        margin-bottom: 6.3rem;
+    }
+
+    .about__content_item_left {
+        font-size: 1.5rem;
+        line-height: 28.8px;
+        margin: 0px 107px 0px 16px;
+    }
+    .about__content_title {
+        font-size: 2.5rem;
+        margin-left: 16px;
+        margin-bottom: 30px;
+    }
+
+    .about__content_item_left > img {
+        display: none;
+    }
+
+    .about__content_items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about__content_item_rigth {
+        display: flex;
+        flex-direction: column;
+        margin-left: 16px;
+    }
+
+    .main__content_img > img {
+        position: relative;
+        top: 0;
+        left: 23px;
+        width: 100%;
+        height: auto;
+        z-index: 1;
+    }
+
+    .flex__item_one_title {
+        text-align: left;
+    }
+
+    .main__content_bg > img {
+        position: absolute;
+        width: 195%;
+        top: 36px;
+        left: -119px;
+        max-height: 88%;
+        z-index: -1;
+    }
+
+    .interest__content {
+        flex-direction: column;
+        margin-left: 16px;
+    }
+
+    .interest__amount {
+        display: flex;
+    }
+
+    .interest__sales {
+        display: flex;
+    }
+
+    .interest__customers {
+        display: flex;
+    }
+
+    .flex__item_one_title > h5 {
+        line-height: 40px;
+        font-size: 2.5rem;
+    }
+
+    .flex__item_one > div > img {
+        width: 45%;
+        transform: rotate(-13deg);
+        object-fit: cover;
+        position: absolute;
+        left: -14px;
+        top: 164px;
+    }
+
+    .flex__item_two_title > h5 {
+        font-size: 2.5rem;
+        line-height: 40px;
+    }
+
+    .flex__item_two_img1 {
+        position: absolute;
+        right: -20px;
+        top: 195px;
+    }
+
+    .flex__item_two_img2 {
+        position: absolute;
+        right: 100px;
+        top: 276px;
+    }
+
+    .flex__item_two_img3 {
+        position: absolute;
+        top: 298px;
+        left: 72px;
+    }
+
+    .flex_item_three {
+        width: 100%;
+    }
+
+    .flex_item_three_title > h5 {
+        font-size: 2.2rem;
+        line-height: 40px;
+    }
+
+    .flex_item_three_img {
+        position: absolute;
+        right: 0px;
+        bottom: 1px;
+    }
+
+    .flex__item_four {
+        width: 100%;
+    }
+
+    .flex__item_four_title > h5 {
+        font-size: 2.2rem;
+        line-height: 40px;
+    }
+
+    .flex_item_four_img {
+        width: 125px;
+        position: absolute;
+        top: 213px;
+        right: 43px;
+    }
+}
+
+/* Средние ноутбуки и планшеты в горизонтальном режиме */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .burger_menu {
+        display: none;
+    }
+
+    .main__content {
+        flex-direction: column;
+        margin-left: 16px;
+    }
+
+    .main__content_img > img {
+        position: relative;
+        top: 0;
+        left: 38px;
+        width: 100%;
+        height: auto;
+        z-index: 1;
+    }
+
+    .main__content_bg > img {
+        position: absolute;
+        width: 195%;
+        top: 39px;
+        left: -152px;
+        max-height: 88%;
+        z-index: -1;
+    }
+
+    .about__content_title {
+        font-size: 4.2rem;
+        margin: 0 83px;
+    }
+
+    .about__content_item_left {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .about__content_items {
+        display: flex;
+        margin-left: 16px;
+        flex-wrap: wrap;
+        margin-left: 39px;
+    }
+
+    .about__content_item_rigth {
+        margin-left: 40px;
+    }
+
+    .about__content_item_left > img {
+        display: none;
+    }
+
+    .interest__content {
+        margin: 0 132px;
+    }
+
+    .flex__item_one {
+        width: 49%;
+    }
+
+    .flex__item_one_title > h5 {
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+
+    .flex__item_one > div > img {
+        width: 150px;
+        object-fit: cover;
+        position: absolute;
+        left: 0px;
+        top: 195px;
+    }
+
+    .flex_item_two {
+        width: 49%;
+    }
+
+    .flex__item_two_title > h5 {
+        font-size: 1.5rem;
+        line-height: 30px;
+        padding: 0;
+    }
+
+    .flex__item_two_title > p {
+        padding-top: 20px;
+    }
+
+    .flex_item_three {
+        width: 49%;
+    }
+
+    .flex_item_three_title > h5 {
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+
+    .flex__item_four {
+        width: 49%;
+    }
+
+    .flex__item_four_title > h5 {
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+}
+
+/* Ноутбуки и настольные компьютеры */
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    /* Ваши стили для ноутбуков и настольных компьютеров */
+}
+
+/* Большие настольные мониторы и телевизоры */
+@media only screen and (min-width: 1280px) {
+    /* Ваши стили для больших настольных мониторов и телевизоров */
+}
