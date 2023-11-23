@@ -313,6 +313,44 @@
     .button__form {
         margin-top: 0;
     }
+
+    .business__grow {
+        margin-top: 60px;
+    }
+
+    .container_grow {
+        padding-top: 40px;
+    }
+
+    .business__grow__title > h2 {
+        font-size: 40px;
+    }
+
+    .business__grow_brands_content {
+        flex-direction: column;
+    }
+
+    .business__grow_brands_title {
+        width: 355px;
+        margin-left: 16px;
+    }
+
+    .business__grow_brands_title > h2 {
+        font-size: 40px;
+    }
+
+    .business__grow_brands_icons {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .business__grow_brands_icons > img {
+        width: 20%;
+    }
+
+    .business__grow_partners_slider > img {
+        margin-top: 100px;
+    }
 }
 
 /* Планшеты и маленькие ноутбуки */
@@ -371,7 +409,7 @@
 
     .main__content_bg > img {
         position: absolute;
-        width: 195%;
+        width: 138%;
         top: 36px;
         left: -119px;
         max-height: 88%;
@@ -630,18 +668,17 @@
     .main__content_img > img {
         position: relative;
         top: 0;
-        left: -71px;
+        left: 44px;
         width: 100%;
         height: auto;
         z-index: 1;
-        width: 138%;
     }
 
     .main__content_bg > img {
         position: absolute;
-        width: 195%;
-        top: 35px;
-        left: -112px;
+        width: 127%;
+        top: 39px;
+        left: -38px;
         max-height: 88%;
         z-index: -1;
     }
@@ -763,10 +800,19 @@
 
 /* Большие настольные мониторы и телевизоры */
 @media only screen and (min-width: 1280px) {
+    body {
+        overflow-x: hidden;
+    }
     .flex__item_one {
         width: 61%;
         display: flex;
         justify-content: right;
+    }
+
+    .flex__item_one_content {
+        width: 364px;
+        font-size: 3rem;
+        margin-top: 20px;
     }
 
     .flex__item_one > div > img {
@@ -777,11 +823,39 @@
         width: 38%;
     }
 
+    .flex_item_three_title {
+        width: 440px;
+    }
+
+    .flex__item_two_title {
+        width: 416px;
+    }
+
     .flex_item_three {
         width: 38%;
     }
 
+    .flex_item_three_title > p {
+        width: 308px;
+    }
+
+    .flex_item_three_img {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+    }
+
     .flex__item_four {
         width: 61%;
+    }
+
+    .flex_item_four_img {
+        position: absolute;
+        top: 81px;
+        right: 43px;
+    }
+
+    .flex__item_four_title {
+        width: 402px;
     }
 }
