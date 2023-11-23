@@ -55,7 +55,7 @@ function checkInputs() {
     if (valuePhone === '') {
         setErrorFor(userPhone, 'This field is required.');
     } else if (!isNumber(valuePhone)) {
-        setErrorFor(userPhone, 'This Phone field is required. The number must start with +7');
+        setErrorFor(userPhone, 'Invalid phone number.');
     } else {
         setSuccessFor(userPhone);
     }

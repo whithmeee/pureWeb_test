@@ -141,6 +141,25 @@ body {
     opacity: 1;
 }
 
+.black__button {
+    padding: 16px 30px;
+
+    /* Primary/01 */
+    background: #954ced;
+    border-radius: 16px;
+
+    width: 122px;
+    height: 25px;
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+}
+
 .modal__form {
     display: flex;
     flex-direction: column;
@@ -391,7 +410,6 @@ input:focus {
     width: 182px;
     height: 57px;
     background: #181818;
-    border: 2px solid #954ced;
     border-radius: 16px;
     font-weight: 600;
     font-size: 20px;
@@ -418,9 +436,6 @@ input:focus {
     margin-top: 5px;
 }
 
-.banner__modal {
-}
-
 /* main */
 
 .main__content {
@@ -430,7 +445,6 @@ input:focus {
 }
 
 .main__content_text {
-    margin: 0 50px;
 }
 
 .main__content_text > p {

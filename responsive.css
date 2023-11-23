@@ -269,6 +269,51 @@
         top: 190px;
         right: 43px;
     }
+
+    .modal__form {
+        max-width: 335px;
+        max-height: 550px;
+        margin-top: 100px;
+    }
+
+    .form_control > input {
+        width: 100%;
+    }
+
+    .form_control {
+        position: relative;
+        margin-bottom: -10px;
+        padding-bottom: 23px;
+    }
+
+    .form_control.error small {
+        margin-top: 15px;
+    }
+
+    .form_control > i > img {
+        top: 39px;
+    }
+
+    .modal__form > img {
+        left: 253px;
+    }
+
+    .modal__thank_content {
+        height: 447px;
+        width: 335px;
+    }
+
+    .modal__thank_content > p {
+        font-size: 21px;
+    }
+
+    .modal__thank_content > button {
+        width: 230px;
+    }
+
+    .button__form {
+        margin-top: 0;
+    }
 }
 
 /* Планшеты и маленькие ноутбуки */
