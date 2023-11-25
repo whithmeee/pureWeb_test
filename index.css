@@ -19,7 +19,6 @@ body {
     max-width: 1300px;
     width: 100%;
     margin: 0 auto;
-    overflow: visible;
 }
 
 .sub__items {
@@ -968,7 +967,7 @@ input:focus {
 }
 .business__grow_brands_title {
     max-width: 822px;
-    max-height: 272px;
+    max-height: auto;
 }
 
 .business__grow_brands_title > h2 {
@@ -1021,31 +1020,22 @@ input:focus {
     height: auto;
 }
 
-@keyframes slider {
-    from {
-        transform: translateX(0);
-    }
-
-    to {
-        transform: translateX(-100%);
-    }
-}
-
 .business__grow_partners {
-    overflow: hidden;
-    white-space: nowrap;
     margin-top: 100px;
+    display: flex;
+    align-items: center;
 }
 
-.business__grow_partners_slider {
-    display: inline-block;
-    animation: 10s slider infinite linear;
+.busines_block {
+    width: 48%; /* Ширина блока, уменьшенная для учета отступов и промежутков */
+    margin-bottom: 20px;
+    box-sizing: border-box;
 }
 
-.business__grow_partners_slider > img {
-    height: 60px;
-    margin: 0 40px;
-    margin-bottom: 100px;
+.busines_block > img {
+    width: 70%; /* Изображение займет всю доступную ширину блока */
+    height: auto; /* Сохранит пропорции изображения */
+    display: block;
 }
 
 .container {

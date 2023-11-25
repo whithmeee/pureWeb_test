@@ -342,6 +342,7 @@
     .business__grow_brands_icons {
         margin-left: 16px;
         margin-right: 16px;
+        margin-bottom: 90px;
     }
 
     .business__grow_brands_icons > img {
@@ -350,6 +351,12 @@
 
     .business__grow_partners_slider > img {
         margin-top: 100px;
+    }
+
+    .business__grow_partners {
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left: 16px;
     }
 }
 
@@ -366,6 +373,10 @@
 
     .main__content_text {
         margin-bottom: 6.3rem;
+    }
+
+    .main__content_text > p {
+        font-size: 19px;
     }
 
     .about__content_item_left {
@@ -438,6 +449,14 @@
         margin-left: 16px;
     }
 
+    .budds__content_title > p {
+        font-size: 30px;
+    }
+
+    .flex__item_one {
+        width: 95%;
+    }
+
     .flex__item_one_title > h5 {
         line-height: 40px;
         font-size: 2.5rem;
@@ -452,6 +471,10 @@
         top: 164px;
     }
 
+    .flex__item_two {
+        width: 95%;
+    }
+
     .flex__item_two_title > h5 {
         font-size: 2.5rem;
         line-height: 40px;
@@ -459,8 +482,8 @@
 
     .flex__item_two_img1 {
         position: absolute;
-        right: -20px;
-        top: 195px;
+        right: -29px;
+        top: 199px;
     }
 
     .flex__item_two_img2 {
@@ -476,7 +499,7 @@
     }
 
     .flex_item_three {
-        width: 100%;
+        width: 95%;
     }
 
     .flex_item_three_title > h5 {
@@ -491,7 +514,7 @@
     }
 
     .flex__item_four {
-        width: 100%;
+        width: 95%;
     }
 
     .flex__item_four_title > h5 {
@@ -504,6 +527,32 @@
         position: absolute;
         top: 213px;
         right: 43px;
+    }
+
+    .business__grow_brands_title {
+        margin-left: 16px;
+    }
+
+    .business__grow_brands_content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .business__grow_brands_icons {
+        width: 50%;
+        margin-left: 0;
+        justify-content: space-around;
+        margin-bottom: 90px;
+    }
+
+    .business__grow_brands_title > h2 {
+        font-size: 3rem;
+    }
+
+    .business__grow_partners {
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left: 16px;
     }
 }
 
@@ -535,7 +584,7 @@
         position: absolute;
         width: 100%;
         top: 39px;
-        left: 134px;
+        left: 47px;
         max-height: 88%;
         z-index: -1;
     }
@@ -654,6 +703,29 @@
         top: 228px;
         right: 43px;
     }
+
+    .business__grow_brands_title > h2 {
+        font-size: 50px;
+    }
+
+    .business__grow_brands_title {
+        margin-left: 16px;
+    }
+
+    .business__grow_brands_icons {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        margin-left: 16px;
+    }
+
+    .business__grow_brands_icons > img {
+        width: 25%;
+        margin-bottom: 90px;
+    }
+    .business__grow_partners {
+        margin-left: 16px;
+    }
 }
 
 /* Ноутбуки и настольные компьютеры */
@@ -677,8 +749,8 @@
     .main__content_bg > img {
         position: absolute;
         width: 127%;
-        top: 39px;
-        left: -38px;
+        top: 30px;
+        left: -28px;
         max-height: 88%;
         z-index: -1;
     }
@@ -796,10 +868,40 @@
         top: 202px;
         right: 43px;
     }
+
+    .business__grow_brands_icons {
+        margin-left: -158px;
+        margin-bottom: 90px;
+    }
+
+    .business__grow_brands_title > h2 {
+        font-size: 60px;
+        margin-left: 16px;
+    }
+    /* 664349 */
+
+    .business__grow_brands_title > p {
+        margin-left: 16px;
+    }
+
+    .business__grow_partners {
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left: 16px;
+    }
+
+    .business__grow_partners {
+        display: flex;
+        flex-wrap: nowrap;
+    }
 }
 
 /* Большие настольные мониторы и телевизоры */
 @media only screen and (min-width: 1280px) {
+    .main__content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
     body {
         overflow-x: hidden;
     }
