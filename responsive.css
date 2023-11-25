@@ -3,8 +3,20 @@
     body {
         overflow-x: hidden;
     }
-    .burger_menu {
+    .buttom__menu {
         display: none;
+    }
+
+    .form__button {
+        width: 69%;
+    }
+
+    .burger__bar > div {
+        width: 35px;
+        height: 3px;
+        background-color: white;
+        margin: 6px 0;
+        cursor: pointer;
     }
 
     .main__content {
@@ -358,12 +370,52 @@
         align-items: center;
         margin-left: 16px;
     }
+
+    .footer__content_top {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .footer__item_list {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+
+    .form__button {
+        margin-bottom: 20px;
+    }
+
+    .footer__content::before {
+        width: 433px;
+        top: 421px;
+        height: 2px;
+        left: 9px;
+    }
+
+    .footer__info_copyright_text > div > p {
+        margin-left: 16px;
+    }
+
+    .footer__info_link {
+        display: none;
+    }
 }
 
 /* Планшеты и маленькие ноутбуки */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    .burger_menu {
+    .buttom__menu {
         display: none;
+    }
+
+    .burger__bar > div {
+        width: 35px;
+        height: 3px;
+        background-color: white;
+        margin: 6px 0;
+        cursor: pointer;
     }
 
     .main__content {
@@ -471,7 +523,7 @@
         top: 164px;
     }
 
-    .flex__item_two {
+    .flex_item_two {
         width: 95%;
     }
 
@@ -554,12 +606,24 @@
         align-items: center;
         margin-left: 16px;
     }
+
+    body.noscroll {
+        overflow: hidden;
+    }
 }
 
 /* Средние ноутбуки и планшеты в горизонтальном режиме */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    .burger_menu {
+    .buttom__menu {
         display: none;
+    }
+
+    .burger__bar > div {
+        width: 35px;
+        height: 3px;
+        background-color: white;
+        margin: 6px 0;
+        cursor: pointer;
     }
 
     .main__content {
@@ -726,6 +790,8 @@
     .business__grow_partners {
         margin-left: 16px;
     }
+
+    /* 098801541009 */
 }
 
 /* Ноутбуки и настольные компьютеры */

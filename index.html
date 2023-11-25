@@ -28,15 +28,40 @@
             </div>
         </div>
 
-        <header class="container">
-            <div class="header">
-                <div class="header__logo">
-                    <img src="./img/logo.svg" alt="" />
-                </div>
+        <header class="header js-header">
+            <div class="container">
+                <div class="header__menu">
+                    <div class="header__logo">
+                        <img src="./img/logo.svg" alt="" />
+                    </div>
 
-                <button class="form__button burger_menu" type="button" value="">
-                    Contact Sales
-                </button>
+                    <div class="burger__bar">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+
+                    <div id="myNav" class="overlay">
+                        <img class="overlay__img" src="./img/Burger.svg" alt="#" />
+
+                        <div class="overlay__items">
+                            <button class="form__button buttom__overlay" type="button" value="">
+                                Contact Sales
+                            </button>
+
+                            <div class="overlay-content">
+                                <a href="#">For Business</a>
+                                <a href="#">For Customers</a>
+                                <a href="#">Privacy Policy</a>
+                                <a href="#">Terms Of Use - Seller</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="form__button buttom__menu" type="button" value="">
+                        Contact Sales
+                    </button>
+                </div>
             </div>
         </header>
 
@@ -267,16 +292,21 @@
             </div>
         </section>
 
-        <!-- <footer class="footer">
+        <footer class="footer">
             <div class="container">
                 <div class="footer__content">
-                    <div class="footer__item_left">
+                    <div class="footer__content_top">
                         <img src="./img/logo.svg" alt="" />
 
                         <div class="footer__item_business">For Business</div>
                         <div class="footer__item_customers">For Customers</div>
-                    </div>
-                    <div class="footer__item_contact">
+
+                        <div class="footer__item_list">
+                            <span>Privacy Policy</span>
+                            <span>Terms Of Use - Seller</span>
+                            <span>Terms of Use - Sellers & Customers</span>
+                        </div>
+
                         <button class="form__button">Contact sales</button>
 
                         <a class="footer__item_appstore" href="#">
@@ -291,24 +321,19 @@
 
                 <div class="footer__info_copyright">
                     <div class="footer__info_copyright_text">
-                        © Copyright 2023, All Rights Reserved by Budss
-                    </div>
-                    <div class="footer__info_copyright_links">
-                        <ul>
-                            <a href="#">
-                                <li>Privacy Policy</li>
-                            </a>
-                            <a href="#">
-                                <li>Terms Of Use - Seller</li>
-                            </a>
-                            <a href="#">
-                                <li>Terms of Use - Sellers & Customers</li>
-                            </a>
-                        </ul>
+                        <div>
+                            <p>© Copyright 2023, All Rights Reserved by Budss</p>
+                        </div>
+
+                        <div class="footer__info_link">
+                            <a href="#"> Privacy Policy </a>
+                            <a href="#"> Terms Of Use - Seller </a>
+                            <a href="#"> Terms of Use - Sellers & Customers </a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </footer> -->
+        </footer>
 
         <!-- modal -->
 
@@ -371,6 +396,6 @@
             </div>
         </div>
 
-        <script src="/index.js"></script>
+        <script src="index.js"></script>
     </body>
 </html>

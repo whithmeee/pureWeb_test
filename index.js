@@ -146,3 +146,38 @@ const modalThankButton = document
     .addEventListener('click', () => {
         modalThank.classList.remove('open');
     });
+
+// burger-menu
+
+let burger = document.querySelector('.burger__bar');
+let myNav = document.getElementById('myNav');
+let closeBtn = document.querySelector('.overlay__img');
+
+burger.addEventListener('click', () => {
+    myNav.classList.add('open');
+});
+
+closeBtn.addEventListener('click', () => {
+    myNav.classList.remove('open');
+});
+
+// Шапка
+
+const header = document.querySelector('.js-header');
+const headerH = document.querySelector('.js-header').offsetHeight;
+
+console.log(headerH);
+
+document.onscroll = () => {
+    let scroll = window.scrollY;
+
+    if (scroll > headerH) {
+        header.classList.add('fixed');
+        document.body.marginTop = headerH + 'px';
+    } else {
+        header.classList.remove('fixed');
+        document.body.removeAttribute('style');
+    }
+
+    console.log(scroll);
+};
