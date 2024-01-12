@@ -283,8 +283,8 @@ body {
 
 .form_control > i > img {
     position: absolute;
-    top: 35px;
-    left: 4px;
+    top: 39px;
+    left: 8px;
 }
 
 .form_control label {
@@ -910,12 +910,12 @@ input:focus {
 .flex__item_two_img2 {
     position: absolute;
     right: 60px;
-    top: 257px;
+    top: 278px;
 }
 
 .flex__item_two_img3 {
     position: absolute;
-    top: 278px;
+    top: 301px;
     left: 72px;
 }
 
@@ -1101,25 +1101,56 @@ input:focus {
     height: auto;
 }
 
-.business__grow_partners {
-    margin-top: 100px;
-    display: flex;
-    align-items: center;
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
 }
 
-.busines_block {
-    width: 48%; /* Ширина блока, уменьшенная для учета отступов и промежутков */
-    margin-bottom: 20px;
-    box-sizing: border-box;
+.logos {
+    overflow: hidden;
+    margin: 100px 0;
+    padding: 60px 0;
+    background: white;
+    white-space: nowrap;
+    position: relative;
 }
 
-.busines_block > img {
-    width: 70%; /* Изображение займет всю доступную ширину блока */
-    height: auto; /* Сохранит пропорции изображения */
-    display: block;
+.logos:before,
+.logos::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    z-index: 2;
+}
+.logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(255, 255, 255));
 }
 
-.container {
+.logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+}
+
+.logos:hover .logos-slide {
+    animation-play-state: paused;
+}
+
+.logos-slide {
+    display: inline-block;
+    animation: 15s slide infinite linear;
+}
+
+.logos-slide img {
+    height: 50px;
+    margin: 0 40px;
 }
 
 /* footer */
